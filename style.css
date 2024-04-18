@@ -1,0 +1,98 @@
+body{
+font-family: "JetBrains Mono", monospace;
+margin: 10px 50px 0 50px;
+background-color: #faf9f6;
+
+
+}
+.logo{
+    width: 6cm;
+    height: 3.5cm;
+    
+    margin-top: 15px;
+   
+    
+   
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div>h2{
+    margin-left: 25px;
+    font-size:xx-large;
+     
+}
+
+
+.rightdiv {
+    display: inline-block;
+    width: 46%;
+    margin: 25px;
+   
+}
+.leftdiv{
+    display: inline-block;
+    width: 46%;
+    margin: 25px;
+    clear: both;
+}
+div{
+    float:left;
+}
+.left{
+    margin-right: 25px;
+    margin-left: 0;
+    float: left;
+
+}
+.rightdiv{
+    float:right;
+}
+.right{
+    margin-right: 20px;
+    float: left;
+}
+footer{
+    clear: both;
+    text-align: right;
+
+}
+.card{
+    border-radius: 6px;
+}
+@media (max-width: 680px){
+body{
+ 
+
+}
+h2 {
+    
+    text-align: center;
+   
+
+  }
+    
+  
+.rightdiv {
+    display:block;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    text-align: justify;}
+ .leftdiv{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 50px;
+        margin-bottom: 30px;
+            text-align: justify}
+  
+        img {
+            margin-bottom: 10px;
+            width: 100%;
+            display: inline;
+            object-fit: cover;
+          } 
+}
